@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Interação, Menu, HTML5">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Um menu mobile interativo criado com as tecnologias HTML5, CSS3 e Javascript">
+    <meta name="author" content="Patrick">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Meu Site de Página Única</title>
+</head>
+
+<body>
+
+    <header class="main-header">
+        <a href="#hero" class="logo">MeuSite</a>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#gallery">Galeria</a></li>
+                <li><a href="#testimonials">Depoimentos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+        <button class="mobile-menu-icon" aria-label="Abrir menu">
+            &#9776; </button>
+    </header>
+
+    <main>
+
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-title">Bem-vindo ao Nosso Espaço Criativo</h1>
+                <p class="hero-subtitle">Onde ideias incríveis ganham vida.</p>
+                <a href="#contact" class="hero-button">Entre em Contato</a>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery-section">
+            <div class="container">
+                <h2 class="section-title">Nossa Galeria</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item"><img src="" alt="Descrição 1"></div>
+                    <div class="gallery-item"><img src="" alt="Descrição 2"></div>
+                    <div class="gallery-item"><img src="" alt="Descrição 3"></div>
+                    <div class="gallery-item"><img src="" alt="Descrição 4"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials-section">
+            <div class="container">
+                <h2 class="section-title">O Que Dizem Sobre Nós</h2>
+                <div class="testimonials-grid">
+                    <article class="testimonial-card">
+                        <img src="" alt="" class="testimonial-avatar">
+                        <blockquote>
+                        </blockquote>
+                        <cite></cite>
+                    </article>
+                    <article class="testimonial-card">
+                        <img src="" alt="" class="testimonial-avatar">
+                        <blockquote></blockquote>
+                        <cite></cite>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="form-container">
+                <h2 class="section-title">Fale Conosco</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" name="user_name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="user_email">
+                    </div>
+                    <button type="submit" class="submit-button">Enviar</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2025 MeuSite. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
